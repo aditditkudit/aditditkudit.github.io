@@ -1,0 +1,55 @@
+		body{
+			background-color: black;
+			font-family: Arial;
+		}
+		img{
+			border: solid white 5px;
+			height: 200px;
+			width: 200px;
+			display: block;
+			margin: 0 auto 0 auto ;
+			border-radius: 50% 0 20% 0;
+		}
+		h1{
+			color: white;
+			background-color: red;
+			text-align: center;
+			padding: 100px;
+			 /*Perbedaan margin dan padding
+			 margin: jarak dari border ke border yang lain
+			 padding jarak dari text terhadap bordernya */
+		}
+
+		h2{
+			color: blue;
+		}
+
+		/*Class*/
+		.merah{
+			color: red;
+		}
+
+		.biru{
+			color: blue;
+		}
+
+		.bordered{
+			border: solid white 3px;
+		}
+
+		.container {
+			padding: 10%;
+			display: block;
+		}
+
+		.red-con{
+			float: left;
+		}
+
+		.blue-con{
+			float: right;
+		}
+
+		.inaaa{
+			display: inline;
+		}
